@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Movies Stage One</string>
+    <string name="pref_sort">popularity.desc</string>
+    <string name="pref_text">Sorted by Popularity</string>
+    <string name="title_text">Title:</string>
+    <string name="over_text">Overview:</string>
+    <string name="vote_average">Average Voter Rating:</string>
+    <string name="release_date">Release Date:</string>
+</resources>
