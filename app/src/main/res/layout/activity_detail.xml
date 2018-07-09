@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:contentDescription="Poster Thumbnail" />
+            android:contentDescription="@string/poster_resource" />
 
         <TextView
             android:layout_width="match_parent"
