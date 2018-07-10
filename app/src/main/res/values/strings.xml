@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Movies Stage One</string>
-    <string name="pref_sort">popularity.desc</string>
+    <string name="pref_sort">popular</string>
     <string name="pref_text">Sorted by Popularity</string>
     <string name="title_text">Title:</string>
     <string name="over_text">Overview:</string>

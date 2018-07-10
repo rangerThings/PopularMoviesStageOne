@@ -31,10 +31,9 @@ class Utilities {
 
 
     //Constants for URL
-    private final static String MOVIES_BASE_URL = "http://api.themoviedb.org/3/discover/movie";
-    private final static String SORT_BY = "sort_by";
-    final static String SORT_POPULAR = "popularity.desc";
-    final static String SORT_RATED = "top_rated.desc";
+    private final static String MOVIES_BASE_URL = "http://api.themoviedb.org/3/movie";
+    final static String SORT_POPULAR = "popular";
+    final static String SORT_RATED = "top_rated";
     private final static String API_TEXT = "api_key";
 
 
@@ -47,7 +46,7 @@ class Utilities {
         //user clicks otherwise
 
         Uri builtUri = Uri.parse(MOVIES_BASE_URL).buildUpon()
-                .appendQueryParameter(SORT_BY, mHowSort)
+                .appendPath(mHowSort)
                 .appendQueryParameter(API_TEXT, API_KEY)
                 .build();
 
